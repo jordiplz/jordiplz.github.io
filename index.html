@@ -31,6 +31,13 @@
             margin-top: 100px;
         }
 
+        /* Responsive layout - makes a one column layout instead of a two-column layout */
+        @media (max-width: 800px) {
+          .card-container {
+            flex-direction: column;
+          }
+        }
+
         .card {
             border: 1px solid #e6e6e6;
             border-radius: 32px;
